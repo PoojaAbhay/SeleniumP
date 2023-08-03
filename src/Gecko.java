@@ -11,6 +11,7 @@ public class Gecko {
 		
 		driver.get("http://omayo.blogspot.com/");
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		
 		/*WebElement UI = driver.findElement(By.id("textbox1"));
 		
